@@ -22,25 +22,16 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
     user-select: none;
     white-space: nowrap;
     vertical-align: middle;
     width: auto;
-    padding: 0.75rem 0.5rem;
     padding: var(--rnf-button-padding-y) var(--rnf-button-padding-x);
-    border-radius: 4px;
     border-radius: var(--rnf-button-border-radius);
-    font-size: .875rem;
-    font-size: var(--rnf-button-font-size);
-    line-height: 1.125rem;
+    font-size: var(--rnf-button-font-size);;
     line-height: var(--rnf-font-size-lg);
-    font-weight: 500;
     font-weight: var(--rnf-button-font-weight);
     border: 1px solid;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     cursor: pointer;
     transition: all .1s ease-in-out;
@@ -71,16 +62,12 @@
 }
 
 .rnf-button--secondary {
-    background-color: #fff;
     background-color: var(--rnf-button-secondary-bg-color);
-    color: #3c4257;
     color: var(--rnf-button-secondary-text-color);
-    border-color: #dddee1;
     border-color: var(--rnf-button-secondary-border-color)
 }
 
 .rnf-button--secondary:hover:not(:disabled),.rnf-button--secondary:active:not(:disabled) {
-    background-color: #dddee1;
     background-color: var(--rnf-button-secondary-hover-bg-color);
     cursor: pointer;
 }
@@ -88,7 +75,6 @@
 .rnf-button--dark.rnf-button--secondary {
     border-color: #43464c;
     background-color: #43464c;
-    color: rgba(255,255,255,.75);
     color: var(--rnf-color-white-a-75)
 }
 
@@ -97,7 +83,6 @@
 }
 
 .rnf-button--dark.rnf-button--secondary:hover:not(:disabled),.rnf-button--dark.rnf-button--secondary:active:not(:disabled) {
-    background-color: #515669;
     background-color: var(--rnf-color-gray-600);
     cursor: pointer;
 }
@@ -122,12 +107,10 @@
 }
 
 .rnf-button--secondary .rnf-button-spinner circle {
-    stroke: #3c4257;
     stroke: var(--rnf-button-secondary-text-color)
 }
 
 .rnf-button--dark.rnf-button--secondary .rnf-button-spinner circle {
-    stroke: rgba(255,255,255,.75);
     stroke: var(--rnf-color-white-a-75)
 }
 
