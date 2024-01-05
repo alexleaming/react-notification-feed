@@ -20,7 +20,6 @@
 /* Avatar */
 
 .rnf-avatar {
-    background-color: #ef8476;
     background-color: var(--rnf-avatar-bg-color);
     border-radius: var(--rnf-avatar-size);
     width: var(--rnf-avatar-size);
@@ -33,7 +32,6 @@
 }
 
 .rnf-avatar__initials {
-    font-size: 1rem;
     font-size: var(--rnf-avatar-initials-font-size);
     line-height: var(--rnf-avatar-initials-line-height);
     color: var(--rnf-avatar-initials-color)
