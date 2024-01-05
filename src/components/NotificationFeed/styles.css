@@ -61,7 +61,6 @@
 
 .rnf-mark-all-as-read svg {
   margin-top: 1px;
-  margin-left: 4px;
   margin-left: var(--rnf-spacing-1);
 }
 
